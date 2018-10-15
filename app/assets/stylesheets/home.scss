@@ -1,0 +1,115 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@font-face {
+font-family: 'NotoSans';
+src: url('Noto_Sans/NotoSans-Bold.ttf') format('truetype');
+src: url('Noto_Sans/NotoSans-BoldItalic.ttf') format('truetype');
+src: url('Noto_Sans/NotoSans-Italic.ttf') format('truetype');
+src: url('Noto_Sans/NotoSans-Regular.ttf') format('truetype');
+}
+#header{
+	width:100vw;
+	text-align: center;
+}
+
+#intro{
+	text-align: center;
+	line-height: 179vh;
+	color:white;
+}
+
+.pic1 {
+	background-image:url(pic1.jpg);
+	width:100vw;
+	height: 122vh;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fill{
+	height:100vh;
+	width:100vw;
+}
+.blanket{
+	background-image: url(/assets/clowd.png);
+	width:100vw;
+	height:25vh;
+	background-repeat: no-repeat; 
+}
+body {
+	margin: 0px;
+}
+li {
+	display: inline;
+}
+
+#nav {
+	margin-top: 2vh;
+	font-family: 'NotoSans';
+	font-size:16px;
+	margin-bottom: 2vh;
+	background: rgba(76, 175, 80, 0)
+}
+
+#nav a {
+	color:black;
+}
+#nav a:hover {
+	color:black;
+	text-decoration: none;
+}
+
+.right{
+	float:right;
+	padding-right: 2vw;
+}
+#contain{
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+
+#gallery{
+}
+
+#thoughts{
+	background-color: #6B949E;
+}
+
+.pic11 {
+	background-image:url(pic17.jpg);
+	width:100vw;
+	height: 40vh;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.text{
+	font-family: 'NotoSans';
+	font-size:20px;
+}
+
+audio{
+	position: absolute;
+	margin-left: 5vw;
+}
+
+#blue{
+	background-image:url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BBgHhNw1tgiz4cai0r/abstract-calming-blue-field-of-glowing-white-light-particles-slow-motion-vi_ssfelnqfx_thumbnail-full01.png);
+	width:100vw;
+	height: 122vh;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
